@@ -9,4 +9,5 @@ Voici mon dernier travail sur le paradoxe de Banach Tarski (lien vers PDF bient�
 [Écouter ma dernière compo](lien-vers-ton-son)
 
 ## 📄 Mon CV
-[Télécharger mon CV au format PDF](cv.pdf)
+[Télécharger mon CV](CV.pdf)
+[Download my CV](CV_english.pdf)
