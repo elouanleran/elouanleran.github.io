@@ -1,2 +1,12 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+{% if page.bg_image %}
+<style>
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('{{ page.bg_image | relative_url }}') no-repeat center center fixed !important;
+    background-size: cover !important;
+  }
+</style>
+{% endif %}
