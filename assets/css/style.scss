@@ -48,6 +48,12 @@ header h1 {
     margin-top: 20px;
 }
 
+/* Effet au survol des liens du menu */
+header a:hover, div a:hover {
+    color: #4db8ff !important;
+    transition: 0.3s;
+}
+
 /* On s'assure que les titres dans le contenu sont aussi centrés */
 h1, h2, h3, p {
     text-align: center;
