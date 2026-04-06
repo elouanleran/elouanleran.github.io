@@ -11,4 +11,5 @@ Voici mon dernier travail sur le paradoxe de Banach Tarski (lien vers PDF bient�
 
 ## 📄 Mon CV
 [Télécharger mon CV](CV.pdf)
-[Download my CV](CV_english.pdf)
+
+[Download my CV](CVenglish.pdf)
