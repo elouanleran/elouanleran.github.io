@@ -1,7 +1,7 @@
-[Accueil](index.html) | [Enseignemet](enseignement.html) | [Recherche](recherche.html) | [Musique](musique.html) | [Sport](sport.html)
 ---
 layout: default
 title: Recherche
+bg_image: assets/images/enseignement.png
 ---
 # Mes activités
 Stage paradoxde de Banach Tarski
