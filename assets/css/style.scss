@@ -2,26 +2,38 @@
 ---
 @import "{{ site.theme }}";
 
-/* Changement de la police pour un look LaTeX/Livre */
+/* 1. Image de fond sur tout le site */
 body {
-  font-family: "Charter", "Bitstream Charter", "Sitka Text", "Cambria", serif;
-  color: #333;
-  line-height: 1.6;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+              url('https://images.unsplash.com/photo-1509228468518-180dd4864904?q=80&w=2070') no-repeat center center fixed;
+  background-size: cover;
+  color: #e0e0e0; /* Texte gris clair pour le mode sombre */
+  font-family: 'Helvetica', sans-serif;
 }
 
-/* Couleur des titres (un bleu nuit très académique) */
-h1, h2, h3 {
-  color: #1a4a7a;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 10px;
+/* 2. Le container principal (plus sombre et transparent) */
+.container-lg {
+  background: rgba(20, 20, 20, 0.85);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
-/* Style des liens */
+/* 3. Style des titres comme chez Bertault */
+h1, h2 {
+  color: #ffffff;
+  border-bottom: 2px solid #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* 4. Barre de navigation (simulée) */
 a {
-  color: #2a7ae2;
+  color: #4db8ff; /* Bleu électrique pour les liens sur fond sombre */
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #ffffff;
 }
