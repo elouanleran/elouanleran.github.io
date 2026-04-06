@@ -1,3 +1,4 @@
+[Musique](musique.html)
 ---
 layout: default
 title: Musique
