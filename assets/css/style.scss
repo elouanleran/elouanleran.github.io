@@ -1,0 +1,27 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* Changement de la police pour un look LaTeX/Livre */
+body {
+  font-family: "Charter", "Bitstream Charter", "Sitka Text", "Cambria", serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Couleur des titres (un bleu nuit très académique) */
+h1, h2, h3 {
+  color: #1a4a7a;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+/* Style des liens */
+a {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
