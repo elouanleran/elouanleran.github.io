@@ -10,6 +10,6 @@ bg_image: /assets/images/musique.png
   <a href="musique.html">MUSIQUE</a> | 
   <a href="sport.html">SPORT</a>
 </div>
-[Accueil](index.html) | [Enseignemet](enseignement.html) | [Recherche](recherche.html) | [Musique](musique.html) | [Sport](sport.html)
+
 # Ma passion pour la musique
 Voici mes morceaux...
