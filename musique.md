@@ -1,4 +1,4 @@
-[Musique](musique.html)
+[Accueil](index.html) | [Enseignemet](enseignement.html) | [Recherche](recherche.html) | [Musique](musique.html) | [Sport](sport.html)
 ---
 layout: default
 title: Musique
