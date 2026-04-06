@@ -1,3 +1,4 @@
+[Enseignement](enseignement.html)
 ---
 layout: default
 title: Enseignement
