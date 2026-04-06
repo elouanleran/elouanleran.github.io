@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Musique
-bg_image: /assets/images/musique.png
+bg_image: assets/images/musique.png
 ---
-<div style="background: rgba(255,255,255,0.1); padding: 10px; border-radius: 5px; text-align: center;">
-  <a href="index.html">ACCUEIL</a> | 
-  <a href="enseignement.html">ENSEIGNEMENT</a> | 
-  <a href="recherche.html">RECHERCHE</a> | 
-  <a href="musique.html">MUSIQUE</a> | 
-  <a href="sport.html">SPORT</a>
+<div style="background: rgba(0,0,0,0.8); padding: 15px; border-bottom: 2px solid #4db8ff; text-align: center; margin-bottom: 20px;">
+  <a href="index.html" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">ACCUEIL</a>
+  <a href="enseignement.html" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">ENSEIGNEMENT</a>
+  <a href="recherche.html" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">RECHERCHE</a>
+  <a href="musique.html" style="margin: 0 15px; color: #4db8ff; text-decoration: none; font-weight: bold;">MUSIQUE</a>
+  <a href="sport.html" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">SPORT</a>
 </div>
 
 # Ma passion pour la musique
