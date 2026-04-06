@@ -2,14 +2,53 @@
 ---
 @import "{{ site.theme }}";
 
-body {
-  color: #e0e0e0;
-  font-family: 'Helvetica', sans-serif;
-  background-color: #121212; /* Un fond noir par défaut le temps que l'image charge */
+/* 1. SUPPRIMER LES TRUCS QUI DÉRANGENT */
+header ul, .view, footer {
+    display: none !important; /* Cache "View My GitHub", les boutons et le footer */
 }
 
+/* 2. RÉORGANISER LA STRUCTURE (On casse la colonne de gauche) */
+.wrapper {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+header {
+    width: 100% !important;
+    float: none !important;
+    position: static !important;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+section {
+    width: 100% !important;
+    float: none !important;
+    text-align: center; /* Centre tout le texte du contenu */
+}
+
+/* 3. STYLE DU NOM (ELOUAN LÉRAN) EN HAUT */
+header h1 {
+    font-size: 3em;
+    color: #4db8ff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+/* 4. AJUSTEMENT DU CONTENU POUR QU'IL SOIT BIEN LISIBLE */
 .container-lg {
-  background: rgba(20, 20, 20, 0.85); /* Ton bloc de texte semi-transparent */
-  padding: 40px;
-  border-radius: 10px;
+    background: rgba(20, 20, 20, 0.85);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    margin-top: 20px;
+}
+
+/* On s'assure que les titres dans le contenu sont aussi centrés */
+h1, h2, h3, p {
+    text-align: center;
 }
