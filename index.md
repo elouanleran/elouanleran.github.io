@@ -1,4 +1,4 @@
-[Accueil](index.html)
+[Accueil](index.html) | [Enseignemet](enseignement.html) | [Recherche](recherche.html) | [Musique](musique.html) | [Sport](sport.html)
 # Bienvenue sur mon site !
 
 Je suis étudiant à Rennes. Voici mes passions :
