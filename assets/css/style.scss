@@ -2,32 +2,73 @@
 ---
 @import "{{ site.theme }}";
 
-/* Style global sombre et épuré */
+/* Style global très sobre et épuré */
 body {
-  background-color: #0d1117;
-  color: #c9d1d9;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.6;
+  background-color: #0b0f19; /* Un fond sombre très élégant et profond */
+  color: #d1d5db;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
 }
 
-/* Alignement et centrage de la page */
-.wrapper {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
-
-/* Cache les éléments par défaut inutiles du thème */
+/* Cache les éléments parasites du thème par défaut */
 header ul, .view, footer {
   display: none !important;
 }
 
+/* Barre de navigation / En-tête académique fixe en haut */
 header {
   float: none !important;
   width: 100% !important;
   position: static !important;
-  text-align: center;
-  margin-bottom: 30px;
+  background-color: #111827;
+  border-bottom: 1px solid #1f2937;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style du nom (discret, élégant, à gauche) */
+header .site-title, header h1 {
+  font-size: 1.1em !important;
+  font-weight: 500 !important;
+  color: #f3f4f6 !important;
+  margin: 0 !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+}
+
+header p {
+  display: none; /* Cache la description sous le nom dans le header */
+}
+
+/* Liens du menu (alignés à droite) */
+nav.site-nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav.site-nav a {
+  color: #9ca3af;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.95em;
+  transition: color 0.2s;
+}
+
+nav.site-nav a:hover, nav.site-nav a.active {
+  color: #ffffff;
+}
+
+/* Conteneur principal de la page */
+.wrapper {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 0 20px;
+  float: none !important;
 }
 
 section {
@@ -35,53 +76,25 @@ section {
   width: 100% !important;
 }
 
-/* Titre principal (Ton nom) */
-header h1 {
-  color: #58a6ff;
-  font-size: 2.5em;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin-bottom: 5px;
+/* Titres dans le contenu */
+h1 {
+  font-size: 2em;
+  font-weight: 400;
+  color: #f3f4f6;
+  margin-bottom: 20px;
 }
 
-header p {
-  color: #8b949e;
-  font-size: 1.1em;
-}
-
-/* Navigation sobre */
-nav {
-  text-align: center;
-  border-top: 1px solid #30363d;
-  border-bottom: 1px solid #30363d;
-  padding: 12px 0;
-  margin-bottom: 35px;
-}
-
-nav a {
-  color: #c9d1d9;
-  text-decoration: none;
-  font-weight: 600;
-  margin: 0 15px;
-  transition: color 0.2s;
-}
-
-nav a:hover, nav a.active {
-  color: #58a6ff;
-}
-
-/* Titres de sections */
 h2 {
-  color: #f0f6fc;
-  border-bottom: 1px solid #21262d;
-  padding-bottom: 8px;
-  margin-top: 35px;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #e5e7eb;
+  border-bottom: 1px solid #1f2937;
+  padding-bottom: 6px;
+  margin-top: 40px;
 }
 
-/* Style des liens */
 a {
-  color: #58a6ff;
+  color: #60a5fa;
   text-decoration: none;
 }
 
@@ -89,11 +102,11 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Cartes / blocs d'information */
+/* Blocs de contenu discrets */
 .card {
-  background: #161b22;
-  border: 1px solid #30363d;
-  border-radius: 8px;
-  padding: 20px;
-  margin: 20px 0;
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 6px;
+  padding: 20px 25px;
+  margin: 25px 0;
 }
