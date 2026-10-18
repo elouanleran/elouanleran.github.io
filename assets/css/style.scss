@@ -2,31 +2,47 @@
 ---
 @import "{{ site.theme }}";
 
-/* On masque le header natif du thème par défaut qui crée le doublon */
-body > div.wrapper > header,
+/* 1. SUPPRESSION DU FOOTER "Hosted on GitHub Pages..." ET ÉLÉMENTS DU THÈME */
+footer,
+body > div.wrapper > footer,
+small,
 header.site-header {
   display: none !important;
 }
 
-body {
-  background-color: #0f172a; /* Fond bleu nuit / ardoise très sombre et élégant */
+/* 2. REINITIALISATION COMPLÈTE DES MARGES DU CORPS DE PAGE */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  background-color: #0f172a !important; /* Fond bleu nuit / ardoise */
   color: #e2e8f0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  margin: 0;
-  padding: 0;
   line-height: 1.7;
 }
 
-/* Bandeau de navigation haut (Style San Vũ Ngọc) */
+/* 3. SORTIR LA BANDE DU CONTENEUR CENTRAL ET LA COLLER HAUT & CÔTÉS */
+body > .wrapper {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  float: none !important;
+}
+
 .nav-banner {
-  background-color: #ffffff; /* Bandeau blanc très propre */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  z-index: 1000;
+  background-color: #ffffff !important;
   border-bottom: 1px solid #e2e8f0;
-  padding: 14px 40px;
+  padding: 16px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 .nav-banner .brand {
@@ -45,7 +61,7 @@ body {
 
 .nav-banner nav {
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 
 .nav-banner nav a {
@@ -58,15 +74,18 @@ body {
 
 .nav-banner nav a:hover,
 .nav-banner nav a.active {
-  color: #0284c7; /* Bleu subtil au survol/page active */
+  color: #0284c7;
 }
 
-/* Conteneur de la page */
-.wrapper {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 0 20px;
+/* 4. CONTENEUR DU CONTENU (SOUS LA BARRE DE NAVIGATION) */
+.wrapper-content,
+.wrapper > div.wrapper-content,
+.wrapper > section {
+  max-width: 850px !important;
+  margin: 100px auto 40px auto !important; /* Marges pour ne pas passer sous la barre fixe */
+  padding: 0 20px !important;
   float: none !important;
+  width: auto !important;
 }
 
 section {
