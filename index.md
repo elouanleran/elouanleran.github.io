@@ -14,11 +14,11 @@ title: Accueil
   </nav>
 </div>
 
-<div class="wrapper">
+<div class="wrapper-content">
 
   <h1>Bienvenue</h1>
   
-  <p>Je suis étudiant en Master 1 de Mathématiques (Magistère) à l'École Normale Supérieure de Rennes et à l'Université de Rennes 1.</p>
+  <p>Je suis étudiant en Master 1 de Mathématiques à l'École Normale Supérieure de Rennes et à l'Université de Rennes 1.</p>
 
   <div class="card">
     <h2 style="margin-top: 0; border: none; padding: 0; color: #f8fafc;">Domaines d'intérêt</h2>
