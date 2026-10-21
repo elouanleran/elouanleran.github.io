@@ -11,6 +11,7 @@ title: Accueil
     <a href="recherche.html">Recherche</a>
     <a href="musique.html">Musique</a>
     <a href="sport.html">Sport</a>
+    <a href="bonus.html">Bonus</a>
   </nav>
 </div>
 
