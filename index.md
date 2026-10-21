@@ -25,7 +25,7 @@ title: Accueil
     <!-- Texte de présentation -->
     <div style="flex: 1; min-width: 280px;">
       <h1 style="margin-top: 0;">Bienvenue sur ma page personnelle</h1>
-      <p>Je suis étudiant en Master 1 de Mathématiques (Magistère) à l'École Normale Supérieure de Rennes et à l'Université de Rennes 1.</p>
+      <p>Je suis étudiant en Master 1 de Mathématiques à l'École Normale Supérieure de Rennes et à l'Université de Rennes 1.</p>
     </div>
 
   </div>
