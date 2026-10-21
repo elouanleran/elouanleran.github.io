@@ -20,7 +20,7 @@ title: Accueil
   <div style="display: flex; gap: 30px; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
     
     <!-- Photo de profil -->
-    <img src="assets/images/photo.png" alt="Elouan Léran" style="width: 180px; height: auto; border-radius: 8px; border: 1px solid #334155; box-shadow: 0 4px 12px rgba(0,0,0,0.3); flex-shrink: 0;" />
+    <img src="assets/images/photo.jpg" alt="Elouan Léran" style="width: 180px; height: auto; border-radius: 8px; border: 1px solid #334155; box-shadow: 0 4px 12px rgba(0,0,0,0.3); flex-shrink: 0;" />
 
     <!-- Texte de présentation -->
     <div style="flex: 1; min-width: 280px;">
