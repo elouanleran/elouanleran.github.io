@@ -27,7 +27,6 @@ title: Recherche
 
   <h2>Thématiques d'intérêt</h2>
   <ul>
-    <li>Analyse fonctionnelle et équations aux dérivées partielles (EDP)</li>
     <li>Théorie de la mesure et probabilités</li>
   </ul>
 
