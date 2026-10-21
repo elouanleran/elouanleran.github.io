@@ -18,13 +18,11 @@ title: Musique
 
   <h1>Musique</h1>
 
-  <p>Pratique musicale personnelle et projets de composition/enregistrement.</p>
+  <p>à venir....</p>
 
   <h2>Instruments & Pratique</h2>
   <ul>
-    <li><b>Piano :</b> Répertoire classique (notamment Frédéric Chopin).</li>
-    <li><b>Ukulélé :</b> Fingerpicking et accompagnements.</li>
-    <li><b>MAO / Enregistrement :</b> Production et arrangement sur BandLab.</li>
+    <li><b>Piano :</b> à venir....</li>
   </ul>
 
 </div>
