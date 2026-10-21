@@ -18,13 +18,13 @@ title: Enseignement
 
   <h1>Enseignement</h1>
 
-  <h2>Interrogations orales (Colles)</h2>
-  <p>Intervenant en classes préparatoires (CPGE) :</p>
+  <h2>Interrogations orales </h2>
+  <p> BCPST2C 2026-2027 :</p>
   <ul>
-    <li><b>Colles de Mathématiques :</b> Suivi et évaluation orale d'étudiants sur le programme de CPGE.</li>
+    <li><b>Colle 1.</li>
   </ul>
 
   <h2>Cours particuliers</h2>
-  <p>Accompagnement pédagogique individuel en mathématiques pour lycéens (Terminale) et étudiants du supérieur.</p>
+  <p>Ressources à venir</p>
 
 </div>
