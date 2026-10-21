@@ -24,7 +24,7 @@ title: Recherche
     <h3 style="margin-top: 0; color: #f8fafc;">TIPE — Ensemble de Cantor :
 Construction et études de ses variantes, propriétés
 mathématiques et représentations graphiques</h3>
-    <p><b>Cadre :</b> 2025 : Travail d'Initiative Personnelle Encadré présenté aux concours Mines-Ponts (CPGE)</p>
+    <p><b>2025 :</b>Travail d'Initiative Personnelle Encadré présenté aux concours Mines-Ponts (CPGE)</p>
     <p>Étude approfondie de l'ensemble triadique de Cantor et exploration de constructions similaires basées sur le retrait d'une proportion quelconque à chaque étape, à travers des approches déterministes et probabilistes.</p>
     <p style="margin-bottom: 0;">
       📄 <b>Document TIPE :</b> 
@@ -34,16 +34,16 @@ mathématiques et représentations graphiques</h3>
   
   <div class="card">
     <h3 style="margin-top: 0; color: #f8fafc;">Le Paradoxe de Banach-Tarski</h3>
-    <p><b>2026 : Stage de L3 encadré par </b> Cédric Villani (Université de Rennes 1)</p>
+    <p><b>2026 :</b>Stage de L3 encadré par Cédric Villani (Université de Rennes 1)</p>
     <p style="margin-bottom: 0;">
       📄 <b>Rapport de stage :</b> 
       <a href="stage_banach_tarski.pdf" target="_blank">Consulter le rapport (PDF)</a>
     </p>
   </div>
 
-  <h2>Thématiques d'intérêt</h2>
+  <h2>Centres d'intérêts</h2>
   <ul>
-    <li>Théorie de la mesure et probabilités</li>
+    <li>Théorie de la mesure et probabilités; équations différentielles</li>
   </ul>
 
 </div>
