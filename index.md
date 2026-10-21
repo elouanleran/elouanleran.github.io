@@ -39,7 +39,7 @@ title: Accueil
   <!-- Contact & CV -->
   <h2>Liens & Contact</h2>
   <ul>
-    <li><b>CV :</b> <a href="CV.pdf" target="_blank">Consulter mon CV (FR)</a> | <a href="CV_english.pdf" target="_blank">Consulter mon CV (EN)</a></li>
+    <li><b>CV :</b> <a href="CV.pdf" target="_blank">Consulter mon CV (FR)</a> | <a href="CV_english.pdf" target="_blank">View my CV (EN)</a></li>
     <li><b>Pour me contacter :</b> <a href="mailto:elouan.leran@ens-rennes.fr">elouan.leran@ens-rennes.fr</a></li>
   </ul>
 
