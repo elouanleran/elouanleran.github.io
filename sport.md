@@ -20,9 +20,7 @@ title: Sport
 
   <h2>Disciplines</h2>
   <ul>
-    <li><b>Cyclisme / VTT :</b> Randonnées longue distance et sorties VTT.</li>
-    <li><b>Tennis :</b> Pratique régulière.</li>
-    <li><b>Course à pied & Corde à sauter :</b> Entraînement physique et endurance.</li>
+    <li><b>Tennis :</b>  à venir....</li>
   </ul>
 
 </div>
