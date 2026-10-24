@@ -44,7 +44,7 @@ title: Breakout & High Scores
 
 </div>
 
-<!-- Moteur du Jeu Breakout & Système de Score -->
+<!-- Moteur du Jeu Breakout (Clavier uniquement) -->
 <script>
   const canvas = document.getElementById("breakoutCanvas");
   const ctx = canvas.getContext("2d");
@@ -86,25 +86,23 @@ title: Breakout & High Scores
     }
   }
 
-  // Événements clavier & souris
+  // Événements clavier UNIQUEMENT (flèches gauche / droite)
   document.addEventListener("keydown", keyDownHandler, false);
   document.addEventListener("keyup", keyUpHandler, false);
-  document.addEventListener("mousemove", mouseMoveHandler, false);
 
   function keyDownHandler(e) {
-    if (e.key === "Right" || e.key === "ArrowRight") rightPressed = true;
-    else if (e.key === "Left" || e.key === "ArrowLeft") leftPressed = false;
+    if (e.key === "Right" || e.key === "ArrowRight") {
+      rightPressed = true;
+    } else if (e.key === "Left" || e.key === "ArrowLeft") {
+      leftPressed = true; // Correction ici : passe bien à true
+    }
   }
 
   function keyUpHandler(e) {
-    if (e.key === "Right" || e.key === "ArrowRight") rightPressed = false;
-    else if (e.key === "Left" || e.key === "ArrowLeft") leftPressed = false;
-  }
-
-  function mouseMoveHandler(e) {
-    let relativeX = e.clientX - canvas.offsetLeft;
-    if (relativeX > 0 && relativeX < canvas.width) {
-      paddleX = relativeX - paddleWidth / 2;
+    if (e.key === "Right" || e.key === "ArrowRight") {
+      rightPressed = false;
+    } else if (e.key === "Left" || e.key === "ArrowLeft") {
+      leftPressed = false;
     }
   }
 
@@ -185,8 +183,12 @@ title: Breakout & High Scores
       }
     }
 
-    if (rightPressed && paddleX < canvas.width - paddleWidth) paddleX += 5;
-    else if (leftPressed && paddleX > 0) paddleX -= 5;
+    // Déplacement au clavier
+    if (rightPressed && paddleX < canvas.width - paddleWidth) {
+      paddleX += 6;
+    } else if (leftPressed && paddleX > 0) {
+      paddleX -= 6;
+    }
 
     x += dx;
     y += dy;
@@ -210,14 +212,14 @@ title: Breakout & High Scores
     clearInterval(gameInterval);
     isRunning = false;
     setTimeout(() => {
-      let name = prompt(`Game Over ! Ton score est de ${score}. Entre ton pseudo/nom pour le classement :`);
+      let name = prompt(`Game Over ! Ton score est de ${score}. Entre ton pseudo pour le classement :`);
       if (name) {
         saveScore(name, score);
       }
     }, 100);
   }
 
-  // --- GESTION DU TABLEAU DES SCORES (LocalStorage + API) ---
+  // --- GESTION DU TABLEAU DES SCORES ---
   function getScores() {
     let scores = JSON.parse(localStorage.getItem("breakout_scores") || "[]");
     return scores;
@@ -245,7 +247,7 @@ title: Breakout & High Scores
     displayScores();
   }
 
-  // Charger les scores au chargement
+  // Initialisation
   displayScores();
   initBricks();
   drawBricks();
